@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://tyleryasaka.github.io/semantic-ui-range/range.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://tyleryasaka.github.io/semantic-ui-range/range.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+    <script src="./script.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header class="ui inverted segment">
+    <div class="ui inverted secondary pointing menu">
+        <a class="active item">
+            Шапка сайта
+        </a>
+    </div>
+</header>
+
+<main style="margin-left: 2.5vw; margin-right: 2.5vw">
+    <div class="ui secondary menu">
+        <div class="item" style="padding: 0">
+            <div class="ui left icon input" style="width: 95vw">
+                <input type="text" placeholder="Search...">
+                <i class="search link icon"></i>
+                <button class="ui yellow button">
+                    Logout
+                </button>
+                <button class="ui button">
+                    Buttonzz
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="ui header">
+        Результаты по запросу
+        <div class="sub header">Показаны результаты для “Запрос пользозвателя”. Вы искали “Зопрос пользователя”.</div>
+    </h1>
+
+    <div class="ui five column grid">
+        <div class="ui items column" style="margin-top: 1.5em!important;">
+            <div class="item">
+                <div class="ui tiny image">
+                    <img src="https://semantic-ui.com/images/wireframe/image.png">
+                </div>
+                <div class="middle aligned content">
+                    <div class="header">Category</div>
+                    <div class="description">
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui items column">
+            <div class="item">
+                <div class="ui tiny image">
+                    <img src="https://semantic-ui.com/images/wireframe/image.png">
+                </div>
+                <div class="middle aligned content">
+                    <div class="header">Category</div>
+                    <div class="description">
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui items column">
+            <div class="item">
+                <div class="ui tiny image">
+                    <img src="https://semantic-ui.com/images/wireframe/image.png">
+                </div>
+                <div class="middle aligned content">
+                    <div class="header">Category</div>
+                    <div class="description">
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui items column">
+            <div class="item">
+                <div class="ui tiny image">
+                    <img src="https://semantic-ui.com/images/wireframe/image.png">
+                </div>
+                <div class="middle aligned content">
+                    <div class="header">Category</div>
+                    <div class="description">
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui items column">
+            <div class="item">
+                <div class="ui tiny image">
+                    <img src="https://semantic-ui.com/images/wireframe/image.png">
+                </div>
+                <div class="middle aligned content"
+                     style="background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 20%, rgba(255, 255, 255, 1) 40%)">
+                    <div class="header" style="background: white; mix-blend-mode: screen">Category</div>
+                    <div class="description" style="width: fit-content; background: white; mix-blend-mode: screen;">
+                        description
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ui grid">
+        <div class="item four wide column">
+            <h3>All categories</h3>
+            <div class="ui list">
+                <a class="item">What is a FAQ?</a>
+                <a class="item">Who is our user?</a>
+                <a class="item">Where is our office located?</a>
+            </div>
+            <h3>Price and currency</h3>
+            <div class="ui range" id="range-2">
+
+            </div>
+            <br>
+            <div class="ui input">
+                <input type="text" id="input-1">
+            </div>
+            <div class="ui input">
+                <input type="text" id="input-2">
+            </div>
+
+            <h3>Brands</h3>
+            <div class="ui form">
+                <div class="inline field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden">
+                        <label>Checkbox</label>
+                    </div>
+                </div>
+                <div class="inline field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden">
+                        <label>Checkbox</label>
+                    </div>
+                </div>
+                <div class="inline field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden">
+                        <label>Checkbox</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item twelve wide column">
+            <div class="ui row" style="margin-bottom: 2vh">
+                <button class="ui yellow button">Filter</button>
+                <button class="ui yellow button">Filter</button>
+                <button class="ui yellow button">Filter</button>
+                <button class="ui yellow button">Filter</button>
+            </div>
+
+            <div class="ui three column grid" style="margin-bottom: 2vh">
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="https://semantic-ui.com/images/wireframe/image.png">
+                        </div>
+                        <div class="content">
+                            <a class="header">Elliot Fu</a>
+                        </div>
+
+                        <div class="content">
+                            <div class="meta">
+                                <span style="font-weight: bold; color: black">XX XXX, $</span>
+                                <span class="category" style="text-decoration: line-through; font-size: smaller">XX XXX $</span>
+                            </div>
+                        </div>
+                        <div class="ui bottom attached yellow button">Button</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui pagination menu">
+                <a class="active item">
+                    2
+                </a>
+                <a class="item">
+                    3
+                </a>
+                <div class="disabled item">
+                    ...
+                </div>
+                <a class="item">
+                    13
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
